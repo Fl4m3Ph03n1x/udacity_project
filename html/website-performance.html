@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="A simple static portfolio with information about all the Udacity Courses I took!" name="description">
+    <meta content="Pedro Miguel P. S. Martins" name="author">
+
+    <title>Pedro Martins: Udacity Course Portfolio</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/print.css" media="print" rel="stylesheet">
+    <link href="../css/mobile.css" media="screen and (max-width: 480px)" rel="stylesheet">
+    <script async="" src="../js/analytics.js"></script>
+    <script async="" src="../js/perfmatters.js"></script>
+    <script async="" src="http://www.google-analytics.com/analytics.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img alt="Pedro's Avatar" src="../img/profilepic.jpg"></a>
+
+        <p>Pedro Martins<br>
+        <span>Master Engineer</span></p>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <strong>This is the nano-course that motivated this project!</strong> If I have succeeded in my mission this website should
+			load almost instantly in your device, even if you have a slow connection! Why? Read and find out!
+        </div>
+
+        <div class="content">
+		
+			<p>
+				This website has a score of XX ! Test your website's speed using <a href="https://developers.google.com/speed/pagespeed/insights/">Page Speed Insights</a>!
+			</p>
+		
+            <p>
+				First because even though this website has JavaScript in it, I always load that JavaScript asynchronously, by using the html <i>async</i> attribute in the link tag.
+				This tells my browser to not wait for the JavaScript files when rendering the website. Admittedly this will not work for every case. If you have a piece of JavaScript vital
+				for your website, you <b>need</b> to block the browser and make sure it gets the needed files before constructing the rendering tree, but in this specific case, I believe 
+				that Google Analytic scripts are not a priority when rendering my website :D
+			</p>
+			
+			<p>
+				No files are downloaded externally. Yes, <b>everything</b> is in the same HTML file: CSS, JavaScript, everything is embedded.
+			</p>
+			
+			<p>
+				The CSS files do not do extra work. Every image in this website was reduced and cropped manually to fit the perfect size. This way you don't have to 
+				waste time processing images in your mobile phone: it is all done here.
+			</p>
+			
+			<p>
+				This page is <a href="http://www.willpeavy.com/minifier/">minified</a> in order to remove comments and extra spaces or tabs. This makes the file smaller
+				which means you spend less network traffic when downloading the file.
+			</p>
+			
+			<p>
+				The server is sending you a compressed version of the website. Want to <a href="http://www.whatsmyip.org/http-compression-test/">check it out</a>?
+			</p>
+			
+			<p>
+				However, this website is being hosted in GitHub Pages, which means that I cannot use caching strategies, like using ETags, as stated in the StackOverflow
+				<a href="http://stackoverflow.com/questions/25230195/html-etags-and-github-pages">HTML ETags and Github Pages</a> thread. This means that if I (or you) deploy 
+				a similar website in a server that allows this, then there is space for improvement !
+			</p>
+        </div>
+
+        <footer>
+            <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
+        </footer>
+    </div>
+	
+	<style scoped>
+			@import "//fonts.googleapis.com/css?family=Open+Sans:400,700" 
+    </style>
+</body>
+</html>

@@ -1,3 +1,15 @@
+## My Performance Optimizatoin Website
+
+This project is a simple website optimized to be as fast as possible. Mobiles and other devices will greatly benefit from the short, time saving techniques I learned by doing this project. 
+
+Want to know more? See it in action !
+
+ - http://fl4m3ph03n1x.github.io/udacity_project/index.html
+
+Want to run the project yourself? Sure! Here are the original instructions of the challenge. Enjoy!
+
+***
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
